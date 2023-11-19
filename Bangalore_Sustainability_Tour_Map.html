@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c8741f9d2d03d7f4e119c9e139be3245 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c8741f9d2d03d7f4e119c9e139be3245" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c8741f9d2d03d7f4e119c9e139be3245 = L.map(
+                "map_c8741f9d2d03d7f4e119c9e139be3245",
+                {
+                    center: [12.9757, 77.6109],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8b6c72b9452cdcb33ab2e297502888e3 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c8741f9d2d03d7f4e119c9e139be3245);
+        
+    
+            var marker_ac604d6dc75dacc261164bac59df3744 = L.marker(
+                [12.9757, 77.6109],
+                {}
+            ).addTo(map_c8741f9d2d03d7f4e119c9e139be3245);
+        
+    
+            var icon_2e34b5c915114bb451f7a5a4c949b294 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ac604d6dc75dacc261164bac59df3744.setIcon(icon_2e34b5c915114bb451f7a5a4c949b294);
+        
+    
+        var popup_2c82103dd281cc2a1809dc26fbbf71f7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_62cdd2e2b7cf410434605ea6b045d51e = $(`<div id="html_62cdd2e2b7cf410434605ea6b045d51e" style="width: 100.0%; height: 100.0%;">1. MG Road Metro Station</div>`)[0];
+            popup_2c82103dd281cc2a1809dc26fbbf71f7.setContent(html_62cdd2e2b7cf410434605ea6b045d51e);
+        
+
+        marker_ac604d6dc75dacc261164bac59df3744.bindPopup(popup_2c82103dd281cc2a1809dc26fbbf71f7)
+        ;
+
+        
+    
+    
+            var marker_3d41289d823e315d6317632ce26f5602 = L.marker(
+                [12.977, 77.5952],
+                {}
+            ).addTo(map_c8741f9d2d03d7f4e119c9e139be3245);
+        
+    
+            var icon_50759ab8360415cf6aac6458dea73712 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3d41289d823e315d6317632ce26f5602.setIcon(icon_50759ab8360415cf6aac6458dea73712);
+        
+    
+        var popup_49ef898aac08be609ae0669acdfa067a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3732aa539158a169be36dc0cdcee4d27 = $(`<div id="html_3732aa539158a169be36dc0cdcee4d27" style="width: 100.0%; height: 100.0%;">2. Cubbon Park</div>`)[0];
+            popup_49ef898aac08be609ae0669acdfa067a.setContent(html_3732aa539158a169be36dc0cdcee4d27);
+        
+
+        marker_3d41289d823e315d6317632ce26f5602.bindPopup(popup_49ef898aac08be609ae0669acdfa067a)
+        ;
+
+        
+    
+    
+            var marker_4db1fe744153111ec43fef73809718a2 = L.marker(
+                [12.9784, 77.591],
+                {}
+            ).addTo(map_c8741f9d2d03d7f4e119c9e139be3245);
+        
+    
+            var icon_997d2c22f26d0ea640d349d4867652e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4db1fe744153111ec43fef73809718a2.setIcon(icon_997d2c22f26d0ea640d349d4867652e3);
+        
+    
+        var popup_e5ecf3a64519df49cdd69ab6fd35beba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_22f575d0c1755ecace45d3f03677b375 = $(`<div id="html_22f575d0c1755ecace45d3f03677b375" style="width: 100.0%; height: 100.0%;">3. Bangalore Central Library</div>`)[0];
+            popup_e5ecf3a64519df49cdd69ab6fd35beba.setContent(html_22f575d0c1755ecace45d3f03677b375);
+        
+
+        marker_4db1fe744153111ec43fef73809718a2.bindPopup(popup_e5ecf3a64519df49cdd69ab6fd35beba)
+        ;
+
+        
+    
+    
+            var marker_6883806686ede200335c8f9b9161dbc7 = L.marker(
+                [12.9787, 77.5997],
+                {}
+            ).addTo(map_c8741f9d2d03d7f4e119c9e139be3245);
+        
+    
+            var icon_2af479ef480de46f156f430f3e2e3e07 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6883806686ede200335c8f9b9161dbc7.setIcon(icon_2af479ef480de46f156f430f3e2e3e07);
+        
+    
+        var popup_1279a46aae47b9f2b6421ac2622e808f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce24c2739c7547ed09e7c8b809d7bf3d = $(`<div id="html_ce24c2739c7547ed09e7c8b809d7bf3d" style="width: 100.0%; height: 100.0%;">4. Chinnaswamy Stadium</div>`)[0];
+            popup_1279a46aae47b9f2b6421ac2622e808f.setContent(html_ce24c2739c7547ed09e7c8b809d7bf3d);
+        
+
+        marker_6883806686ede200335c8f9b9161dbc7.bindPopup(popup_1279a46aae47b9f2b6421ac2622e808f)
+        ;
+
+        
+    
+    
+            var marker_e2aa16a70912af94912130afaf9e6be3 = L.marker(
+                [12.9824, 77.6083],
+                {}
+            ).addTo(map_c8741f9d2d03d7f4e119c9e139be3245);
+        
+    
+            var icon_63f3f734de37dcc53b977d9312529551 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e2aa16a70912af94912130afaf9e6be3.setIcon(icon_63f3f734de37dcc53b977d9312529551);
+        
+    
+        var popup_8bb0befb002c367749c26870017cf348 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fee94a5487f60c31bd73c71f9173aa3a = $(`<div id="html_fee94a5487f60c31bd73c71f9173aa3a" style="width: 100.0%; height: 100.0%;">5. Commercial Street</div>`)[0];
+            popup_8bb0befb002c367749c26870017cf348.setContent(html_fee94a5487f60c31bd73c71f9173aa3a);
+        
+
+        marker_e2aa16a70912af94912130afaf9e6be3.bindPopup(popup_8bb0befb002c367749c26870017cf348)
+        ;
+
+        
+    
+    
+            var marker_e71797682df9e25793de860809a541c6 = L.marker(
+                [12.9814, 77.6286],
+                {}
+            ).addTo(map_c8741f9d2d03d7f4e119c9e139be3245);
+        
+    
+            var icon_215c63bf784cf86500d7529e1903d8ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e71797682df9e25793de860809a541c6.setIcon(icon_215c63bf784cf86500d7529e1903d8ff);
+        
+    
+        var popup_ed5797bf6ea4c3b93cffe936092dc3a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_84369a8c05f3fe556990f45793b37825 = $(`<div id="html_84369a8c05f3fe556990f45793b37825" style="width: 100.0%; height: 100.0%;">6. Ulsoor Lake</div>`)[0];
+            popup_ed5797bf6ea4c3b93cffe936092dc3a5.setContent(html_84369a8c05f3fe556990f45793b37825);
+        
+
+        marker_e71797682df9e25793de860809a541c6.bindPopup(popup_ed5797bf6ea4c3b93cffe936092dc3a5)
+        ;
+
+        
+    
+    
+            var poly_line_a70cd0b3becfb8abf458998a3c54560a = L.polyline(
+                [[12.9757, 77.6109], [12.9765, 77.606], [12.977, 77.5952], [12.9784, 77.591], [12.9787, 77.5997], [12.9824, 77.6083], [12.9814, 77.6286]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_c8741f9d2d03d7f4e119c9e139be3245);
+        
+</script>
+</html>
